@@ -1,0 +1,53 @@
+/* Links&Assets */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&display=swap');
+
+/* Animations&bodyStyles */
+html {
+    scroll-behavior: smooth;
+    background-color: #eeeeee;
+    font-family: 'Cairo', sans-serif;
+  }
+
+  /* Header */
+
+  /* others */
+  .soon-bx {
+    border-color: goldenrod;
+    border-style: solid;
+    border-width: 1px;
+    position: fixed;
+    margin-left: 400px;
+    margin-top: 200px;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+  .line {
+    background-color: rgb(255, 196, 0);
+    width: 300px;
+    height: 3px;
+    margin-left: 100px;
+    border-radius: 4px;
+    top: 66px;
+    position: absolute;
+  }
+  .soon-title{
+    font-weight: bold;
+    color: goldenrod;
+  }
+  @media (max-width: 768px) {
+    .line{
+        margin-left: 60px;
+    }
+    .soon-bx {
+        width: 411px;
+        margin-left: 21px;
+    }
+  }
+  /* content Style-desktop */
+
+  /* content style-mobile */
