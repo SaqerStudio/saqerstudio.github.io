@@ -41,10 +41,11 @@ html {
   }
   @media (max-width: 768px) {
     .line{
-        margin-left: 60px;
+        margin-left: 50px;
+        width: 200px;
     }
     .soon-bx {
-        width: 411px;
+        width: 300px;
         margin-left: 21px;
     }
   }
