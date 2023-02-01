@@ -12,8 +12,10 @@ html {
 
   /* others */
   .soon-bx {
-    padding-left: 400px;
-    margin-top: 300px;
+    align-tracks: center;
+    position: absolute;
+    top: 40%;
+    left: 45%;;
   }
 
   .soonbx-content {
@@ -52,8 +54,8 @@ html {
     .soon-bx {
       margin: 0px;
       padding-top: 240px;
-      padding-left: 0px;
-      margin-top: 0px;
+      top: 0%;
+      left: 0%;
     }
     .soonbx-content{
       width: 382px;
